@@ -6,9 +6,9 @@ Aplicación web simple para gestionar un sorteo de amigo secreto. Permite ingres
 
 ## 📌 Funcionalidades
 
-- Agregar nombres de participantes.
+- Agregar nombres de amigos.
 - Mostrar lista de amigos en pantalla.
-- Seleccionar un nombre al azar con un botón.
+- Seleccionar un amigo al azar con el boton "Sortear Amigo".
 
 ---
 
@@ -24,18 +24,19 @@ No requiere instalación ni dependencias externas. Solo necesitás un navegador 
    ```bash
    git clone https://github.com/maylimachi/challenge-amigo-secreto_esp-main.git
 
-## 🗂️ Estructura del proyecto
-amigo-secreto/
-├── index.html
-├── style.css
-├── script.js
-├── assets/
-│ └── amigo-secreto.png
-│ └── logo.png
-│ └── play_circle_outline.png
-│ └── preview.png
-└── README.md
+## 🗂️ Estructura del proyecto ``` amigo-secreto/ ├── index.html ├── style.css ├── script.js ├── assets/ │ ├── amigo-secreto.png │ ├── logo.png │ ├── play_circle_outline.png │ └── preview.png └── README.md ```
 
-## 📸 Captura
+## 📸 Captura del Proyecto
 
 ![Vista previa](assets/preview.png)
+
+## 💻 Estado del proyecto
+Proyecto en desarrollo activo.
+
+## 🛠️ Tecnologías utilizadas  
+- HTML  
+- CSS  
+- JavaScript 
+
+## 👩‍💻 Desarrolladora 
+- Mayra Joselin Limachi Callisaya
