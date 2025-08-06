@@ -34,7 +34,7 @@ No requiere instalación ni dependencias externas. Solo necesitás un navegador 
 │ ├── logo.png 
 │ ├── play_circle_outline.png 
 │ └── preview.png 
-└── README.md ```
+└── README.md
 
 ## 📸 Captura del Proyecto
 
