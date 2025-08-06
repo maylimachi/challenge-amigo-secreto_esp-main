@@ -25,7 +25,8 @@ No requiere instalación ni dependencias externas. Solo necesitás un navegador 
    git clone https://github.com/maylimachi/challenge-amigo-secreto_esp-main.git
 
 ## 🗂️ Estructura del proyecto 
-```amigo-secreto/ 
+```
+amigo-secreto/ 
 ├── index.html 
 ├── style.css 
 ├── script.js 
@@ -34,7 +35,8 @@ No requiere instalación ni dependencias externas. Solo necesitás un navegador 
 │ ├── logo.png 
 │ ├── play_circle_outline.png 
 │ └── preview.png 
-└── README.md```
+└── README.md
+```
 
 ## 📸 Captura del Proyecto
 
