@@ -29,7 +29,7 @@ No requiere instalación ni dependencias externas. Solo necesitás un navegador 
 amigo-secreto/ 
 ├── index.html 
 ├── style.css 
-├── script.js 
+├── app.js 
 ├── assets/ 
 │ ├── amigo-secreto.png 
 │ ├── logo.png 
@@ -43,7 +43,7 @@ amigo-secreto/
 ![Vista previa](assets/preview.png)
 
 ## 💻 Estado del proyecto
-Proyecto en desarrollo activo.
+Proyecto Finalizado.
 
 ## 🛠️ Tecnologías utilizadas  
 - HTML  
