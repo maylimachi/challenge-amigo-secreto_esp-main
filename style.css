@@ -1,9 +1,9 @@
 :root {
-    --color-primary: #4B69FD;
+    --color-primary: #00105f;
     --color-secondary: #FFF9EB;
-    --color-tertiary: #C4C4C4;
+    --color-tertiary: #0015ff;
     --color-button: #fe652b;
-    --color-button-hover: #e55720;
+    --color-button-hover: #b93400;
     --color-text: #444444;
     --color-white: #FFFFFF;
 }
@@ -54,7 +54,7 @@ body {
 
 /* Títulos */
 .main-title {
-    font-size: 48px;
+    font-size: 80px;
     font-family: "Merriweather", serif;
     font-weight: 900;
     font-style: italic;
@@ -117,12 +117,13 @@ button {
 
 .button-add {
     background-color: var(--color-tertiary);
-    color: var(--color-text);
+    color: var(--color-white);
     border-radius: 0 25px 25px 0;
 }
 
 .button-add:hover {
-    background-color: #a1a1a1;
+    background-color: var(--color-button);
+    color: var(--color-white);
 }
 
 /* Listas */
@@ -134,12 +135,27 @@ ul {
     margin: 20px 0;
 }
 
-.result-list {
-    margin-top: 15px;
-    color: #05DF05;
-    font-size: 22px;
-    font-weight: bold;
+.name-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 0;
+    justify-content: center;
+}
+
+.list-item {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    margin: 2px;
+    background-color: var(--color-button);
+    color: var(--color-white);
     text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 200px;
+    flex: 0 1 auto;
 }
 
 /* Botón de sortear título */
@@ -149,7 +165,7 @@ ul {
     width: 100%;
     padding: 10px 40px;
     color: var(--color-white);
-    background-color: var(--color-button);
+    background-color: var(--color-tertiary);
     font-size: 16px;
 }
 
@@ -158,5 +174,6 @@ ul {
 }
 
 .button-draw:hover {
-    background-color: var(--color-button-hover);
+    background-color: var(--color-button);
+    transform: scale(1.05);
 }
